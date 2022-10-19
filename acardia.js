@@ -4,5 +4,5 @@ const loginErrorMsg = document.getElementById("login-error-msg");
 loginButton.addEventListener("click", (e) => {e.preventDefault();
 const username = loginForm.username.value;
 const password = loginForm.password.value;
-if (username === "anggota" && password === "1235") {window.open('https://sites.google.com/view/koperasi-mandiri/tagihan', '_blank');}
+if (username === "user" && password === "admin") {window.open('https://sites.google.com/view/koperasi-mandiri/tagihan', '_self');}
 else {alert("Salah Gais, coba lagi");}})
